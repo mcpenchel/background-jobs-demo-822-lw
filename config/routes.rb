@@ -1,7 +1,4 @@
 Rails.application.routes.draw do
-  # If you're wondering what's a products resource doing here,
-  # it's just to showcase an example of how to trigger a background job from
-  # the Controller layer.
   resources :products
 
   devise_for :users
